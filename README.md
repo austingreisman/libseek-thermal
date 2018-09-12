@@ -119,7 +119,7 @@ Using the following include:
 
 When compiling the modified seekviewer with UDP you will need to maually compile the system like so
 ```
-g++ my_program.cpp PractialSockets.cpp -o my_program -lseek `pkg-config opencv --libs`
+g++ my_program.cpp PracticalSocket.cpp -o my_program -lseek `pkg-config opencv --libs`
 ```
 
 ## Apply additional flat field calibration
