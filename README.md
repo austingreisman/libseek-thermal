@@ -115,6 +115,13 @@ Using the following include:
 #include <seek/seek.h>
 ```
 
+## Additional information for Streaming Video over Local Network
+
+When compiling the modified seekviewer with UDP you will need to maually compile the system like so
+```
+g++ my_program.cpp PractialSockets.cpp -o my_program -lseek `pkg-config opencv --libs`
+```
+
 ## Apply additional flat field calibration
 
 To get better image quality, you can optionally apply an additional flat-field calibration.
