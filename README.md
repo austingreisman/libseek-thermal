@@ -122,6 +122,12 @@ When compiling the modified seekviewer with UDP you will need to maually compile
 g++ my_program.cpp PracticalSocket.cpp -o my_program -lseek `pkg-config opencv --libs`
 ```
 
+To run the code:
+
+```
+./my_program --colormap=11 -o garbage
+```
+
 ## Apply additional flat field calibration
 
 To get better image quality, you can optionally apply an additional flat-field calibration.
