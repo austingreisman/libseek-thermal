@@ -115,11 +115,11 @@ Using the following include:
 #include <seek/seek.h>
 ```
 
-## Additional information for Streaming Video over Local Network
+## Additional information for Streaming Video over Local Network or VPN
 
 When compiling the modified seekviewer with UDP you will need to maually compile the system like so
 ```
-g++ my_program.cpp PracticalSocket.cpp -o my_program -lseek `pkg-config opencv --libs`
+g++ -std=c++11 my_program.cpp PracticalSocket.cpp -o my_program -lseek `pkg-config opencv --libs`
 ```
 
 To run the code:
